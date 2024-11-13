@@ -8,7 +8,7 @@ public class Bill3 {
 		int value = Integer.parseInt(args[3]);
 		double split = (double) value;
 		double BillForEach =  Math.ceil (split / 3.0);
-		System.out.println("Dear " + name3 +", "+ name2+ ", and "+ name1+ ": Pay " + BillForEach + " Shekels  each" );
+		System.out.println("Dear " + name3 +", "+ name2+ ", and "+ name1+ ": pay " + BillForEach + " Shekels each");
 	
 	}
 }
